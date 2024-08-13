@@ -1,0 +1,14 @@
+[data-section-theme="dark"] {
+  --text-color: var(--color-white);
+  --section-title-color: var(--color-white);
+  background-color: var(--color-dark-grey);
+  color: var(--text-color);
+}
+
+[data-section-theme="dark"] .section-title {
+  color: var(--section-title-color);
+}
+
+[data-section-theme="dark"] .section-tagline {
+  color: var(--color-primary);
+}

@@ -1,0 +1,64 @@
+/* Start with mobile styles */
+.container {
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.col-1-3,
+.col-1-2 {
+  width: 100%;
+  float: none;
+  padding: 0;
+}
+
+.navbar-menu {
+  float: none;
+  text-align: center;
+}
+
+.hero {
+  padding: 5rem 1rem;
+}
+
+.hero-title {
+  font-size: var(--font-size-x-large);
+}
+
+.hero-subtitle {
+  font-size: var(--font-size-medium);
+}
+
+@media (min-width: 768px) {
+  /* Tablet and up */
+  .container {
+    width: 90%;
+    padding: 0;
+  }
+
+  .col-1-3 {
+    width: 33.33%;
+  }
+
+  .col-1-2 {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Desktop and up */
+  .container {
+    width: 80%;
+  }
+
+  .hero {
+    padding: 10rem 1rem;
+  }
+
+  .hero-title {
+    font-size: var(--font-size-xx-large);
+  }
+
+  .hero-subtitle {
+    font-size: var(--font-size-large);
+  }
+}

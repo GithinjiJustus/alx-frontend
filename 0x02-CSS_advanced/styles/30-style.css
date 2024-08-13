@@ -1,0 +1,4 @@
+/* Remove debugging borders */
+* {
+  border: none !important;
+}
